@@ -1,0 +1,50 @@
+.banner {
+  position: relative;
+}
+
+img{
+    border-radius: 15px;
+}
+p{
+    text-align: right;
+    color: #EF4C00;
+    text-transform: uppercase;
+}
+
+.text-into {
+  position: absolute;
+  color: #ffffff;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3.5vw; /* Cambiamos a tamaño de fuente relativo */
+}
+
+.download-icons {
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+}
+
+.icon {
+  margin-right: 10px;
+  width: 10vw; /* Cambiamos a tamaño relativo */
+}
+
+@media (max-width: 768px) {
+  .text-into {
+    top: 70%;
+    font-size: 5vw; /* Ajustamos el tamaño de fuente relativo para dispositivos más pequeños */
+  }
+
+  .download-icons {
+    top: 90%;
+
+    bottom: 25%;
+  }
+
+  .icon {
+    margin-right: 5px;
+    width: 8vw; /* Ajustamos el tamaño relativo para dispositivos más pequeños */
+  }
+}

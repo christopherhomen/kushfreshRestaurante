@@ -1,0 +1,38 @@
+.categorias {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .categoria {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F4F9FF;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .categoria-uno {
+    background-color: #EF4C00;
+    color: #FFFFFF;
+  }
+  
+  .categoria-uno .categoria-texto {
+    color: #FFFFFF;
+  }
+  
+  .categoria-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .categoria-texto {
+    font-size: 16px;
+    color: #2E4765;
+  }
+  
+  .categoria.active {
+    background-color: #EF4C00 !important;
+  }
+  
